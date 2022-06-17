@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Leap-Auth</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.1/leap.js" integrity="sha512-fvNvvMdBDO3YTTfIvK274j+oZC9aXiLU1297IUVXHXsytCCx6fbUVW8xv9wf7MWu4hugJfgOQKsrvF3zUyJYng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href='style.css'></style>
+  </head>
+  <body>
+    <div id="app" class="show-hands">
+      <h1 style="color: #fff; text-align: center;">Authentication in Progress...</h1>
+      <div id="showHands"></div>
+      <div id="hideHands"></div>
+      <div id="scene">
+        <div id="cube" class="cube">
+          <div class="face tp"></div>
+          <div class="face lt"></div>
+          <div class="face rt"></div>
+          <div class="face ft"></div>
+          <div class="face bk"></div>
+        </div>
+        <div id="finger" class="cube finger">
+          <div class="face tp"></div>
+          <div class="face lt"></div>
+          <div class="face rt"></div>
+          <div class="face ft"></div>
+          <div class="face bk"></div>
+        </div>
+        <div id="sphere" class="cube sphere">
+          <div class="face tp"></div>
+          <div class="face lt"></div>
+          <div class="face rt"></div>
+          <div class="face ft"></div>
+          <div class="face bk"></div>
+        </div>
+      </div>
+    </div>
+    <div id="auth" style="display: none; text-align: center;">
+      <h1>Authenticated: Kai Washino</h1>
+      <img style="display: block; margin: 0 auto;" src="./washino.jpg">
+    </div>
+  </body>
+</html>
