@@ -7,9 +7,7 @@
   </head>
   <body>
     <div id="app" class="show-hands">
-      <h1 style="color: #fff; text-align: center;">Authentication in Progress...</h1>
-      <div id="showHands"></div>
-      <div id="hideHands"></div>
+      <h1 id="text" style="font-family: serif; color: #fff; text-align: center;">Authentication: </h1>
       <div id="scene">
         <div id="cube" class="cube">
           <div class="face tp"></div>
@@ -34,8 +32,12 @@
         </div>
       </div>
     </div>
+    <div id="loading" style="display: none;">
+      <h1 style="text-align: center; color: #fff; font-family: serif;">Authentication in Progress...</h1>
+      <div class="loader"></div>
+    </div>
     <div id="auth" style="display: none; text-align: center;">
-      <h1>Authenticated: Kai Washino</h1>
+      <h1 style="font-family: serif;">Authenticated: Kai Washino</h1>
       <img style="display: block; margin: 0 auto;" src="./washino.jpg">
     </div>
   </body>
