@@ -184,8 +184,8 @@ button {
 .loader,
 .loader:after {
   border-radius: 50%;
-  width: 10em;
-  height: 10em;
+  width: 50em;
+  height: 50em;
 }
 .loader {
   margin: 60px auto;
